@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_error_placeholder.png.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/error_placeholder.png"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/color_quick_service_text_color.xml.flat",
+        "source": "com.recipe.search.app-main-6:/color/quick_service_text_color.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/color_bottom_nav_color.xml.flat",
+        "source": "com.recipe.search.app-main-6:/color/bottom_nav_color.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/raw_warning.json.flat",
+        "source": "com.recipe.search.app-main-6:/raw/warning.json"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_activity_splash_screen.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_app_loading_view.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/app_loading_view.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_list.png.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/list.png"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/font_nunito_semibold.ttf.flat",
+        "source": "com.recipe.search.app-main-6:/font/nunito_semibold.ttf"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/menu_menu_logout.xml.flat",
+        "source": "com.recipe.search.app-main-6:/menu/menu_logout.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_donate_blood_lg_clr.gif.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/donate_blood_lg_clr.gif"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/raw_failed.json.flat",
+        "source": "com.recipe.search.app-main-6:/raw/failed.json"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/raw_loader.gif.flat",
+        "source": "com.recipe.search.app-main-6:/raw/loader.gif"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_logout_icon.png.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/logout_icon.png"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.recipe.search.app-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_dialog_update_profile.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/dialog_update_profile.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_dashboard.xml.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/dashboard.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_activity_login.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/color_segment_text_color.xml.flat",
+        "source": "com.recipe.search.app-main-6:/color/segment_text_color.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_dialog_layout.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/dialog_layout.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_nav_header_home.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/nav_header_home.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_activity_sign_up.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/font_nunito_regular.ttf.flat",
+        "source": "com.recipe.search.app-main-6:/font/nunito_regular.ttf"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/font_nunito_font_family.xml.flat",
+        "source": "com.recipe.search.app-main-6:/font/nunito_font_family.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_dialog_background.xml.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/dialog_background.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_edit_text.xml.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/edit_text.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/xml_provider_path.xml.flat",
+        "source": "com.recipe.search.app-main-6:/xml/provider_path.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_button_background.xml.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/color_custom_tab_text_color.xml.flat",
+        "source": "com.recipe.search.app-main-6:/color/custom_tab_text_color.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/raw_success.json.flat",
+        "source": "com.recipe.search.app-main-6:/raw/success.json"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/font_nunito_italic.ttf.flat",
+        "source": "com.recipe.search.app-main-6:/font/nunito_italic.ttf"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_profile.png.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/profile.png"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_password_visibility.xml.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/password_visibility.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/menu_menu_bottom.xml.flat",
+        "source": "com.recipe.search.app-main-6:/menu/menu_bottom.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/color_button_text_color.xml.flat",
+        "source": "com.recipe.search.app-main-6:/color/button_text_color.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/raw_lottie_loader.json.flat",
+        "source": "com.recipe.search.app-main-6:/raw/lottie_loader.json"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_dialog_success.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/dialog_success.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_edit_text_background.xml.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_change_password_icon.png.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/change_password_icon.png"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/font_nunito_bold.ttf.flat",
+        "source": "com.recipe.search.app-main-6:/font/nunito_bold.ttf"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/font_nunito_light.ttf.flat",
+        "source": "com.recipe.search.app-main-6:/font/nunito_light.ttf"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_dawer_divider.xml.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/dawer_divider.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_placeholder.png.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/placeholder.png"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_dialog_error.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/dialog_error.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_app_bar_layout.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/app_bar_layout.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.recipe.search.app-pngs-0:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_activity_dash_board.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/activity_dash_board.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/layout_popup_dialog.xml.flat",
+        "source": "com.recipe.search.app-main-6:/layout/popup_dialog.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-merged_res-4:/drawable_ic_launcher_test_foreground.xml.flat",
+        "source": "com.recipe.search.app-main-6:/drawable/ic_launcher_test_foreground.xml"
+    }
+]

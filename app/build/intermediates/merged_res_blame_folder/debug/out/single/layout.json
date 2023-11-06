@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/dialog_layout.xml",
+        "source": "com.recipe.search.app-main-6:/layout/dialog_layout.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/dialog_success.xml",
+        "source": "com.recipe.search.app-main-6:/layout/dialog_success.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/activity_sign_up.xml",
+        "source": "com.recipe.search.app-main-6:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/dialog_error.xml",
+        "source": "com.recipe.search.app-main-6:/layout/dialog_error.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/dialog_update_profile.xml",
+        "source": "com.recipe.search.app-main-6:/layout/dialog_update_profile.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/popup_dialog.xml",
+        "source": "com.recipe.search.app-main-6:/layout/popup_dialog.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/activity_login.xml",
+        "source": "com.recipe.search.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/app_bar_layout.xml",
+        "source": "com.recipe.search.app-main-6:/layout/app_bar_layout.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/app_loading_view.xml",
+        "source": "com.recipe.search.app-main-6:/layout/app_loading_view.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/activity_dash_board.xml",
+        "source": "com.recipe.search.app-main-6:/layout/activity_dash_board.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/activity_splash_screen.xml",
+        "source": "com.recipe.search.app-main-6:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/nav_header_home.xml",
+        "source": "com.recipe.search.app-main-6:/layout/nav_header_home.xml"
+    }
+]
