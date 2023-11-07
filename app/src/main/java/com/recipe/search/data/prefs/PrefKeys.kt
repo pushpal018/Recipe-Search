@@ -62,18 +62,9 @@ object PrefKeys {
     const val POPUPNOTIFICAITON_DATE = "popup_notificaiton_date"
 
 
-    const val MERCHANT_PROFILE: String="merchant_profile"
     const val APP_BAR_DATA: String="app_bar_data"
 
 
-
-    const val ATTACHMENT_FILE_URL = "attachment_file_url"
-
-
-    const val TXN_ID = "txn_id"
-
-    const val APP_BANKS: String = "appBanks"
-    const val APP_PAYMENT_MODULE: String = "appPaymentModule"
 
 
 }

@@ -1378,6 +1378,7 @@ color background_material_light
 color black
 color blue_text
 color bottom_nav_color
+color brand_color
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -3118,6 +3119,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable brand_icon
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3128,6 +3130,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_background
 drawable change_password_icon
+drawable circle
 drawable com_facebook_auth_dialog_background
 drawable com_facebook_auth_dialog_cancel_background
 drawable com_facebook_auth_dialog_header_background
@@ -3170,6 +3173,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable custome_edit_text_background
 drawable dashboard
 drawable dawer_divider
 drawable design_fab_background
@@ -3185,6 +3189,8 @@ drawable error_placeholder
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
+drawable ic_baseline_visibility
+drawable ic_baseline_visibility_off
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -3206,6 +3212,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable ic_site_settings
+drawable img_placeholder
 drawable list
 drawable logout_icon
 drawable m3_appbar_background
@@ -3276,6 +3283,7 @@ drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable no_data_found
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -3291,6 +3299,7 @@ drawable notify_panel_notification_icon_bg
 drawable password_visibility
 drawable placeholder
 drawable profile
+drawable search_icon
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3416,8 +3425,8 @@ id btn_create_account
 id btn_login
 id btn_negative
 id btn_next
-id btn_ok
 id btn_positive
+id btn_search
 id btn_update_profile
 id button
 id buttonPanel
@@ -3435,7 +3444,6 @@ id chain
 id chain2
 id chains
 id checkbox
-id checkbox_terms_and_conditions
 id checked
 id chronometer
 id circle_center
@@ -3517,13 +3525,11 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
-id et_merchent_name
 id et_pin
 id et_pin_confirm
-id et_user_contract
+id et_search
 id et_user_email
 id et_user_name
-id et_user_website
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3569,6 +3575,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView2
 id imageView7
 id img_loader
 id immediateStop
@@ -3584,6 +3591,7 @@ id iv_logo
 id iv_logout
 id iv_pin_visibility
 id iv_pin_visibility_confirm
+id iv_recipe_image
 id iv_robi
 id jumpToEnd
 id jumpToStart
@@ -3601,13 +3609,20 @@ id linear
 id linearLayout
 id listMode
 id list_item
+id ll_no_data_found
 id ll_pin
 id ll_pin_confirm
+id ll_recipe
 id ll_signup_btn
-id ll_terms_and_conditions
 id log_out
 id login_password
-id login_userName
+id login_userEmail
+id lottie_dialog_animation
+id lottie_dialog_animation_container
+id lottie_dialog_buttons_layout
+id lottie_dialog_layout
+id lottie_dialog_message
+id lottie_dialog_title
 id lottie_layer_name
 id m3_side_sheet
 id marquee
@@ -3734,6 +3749,7 @@ id right_side
 id root
 id rounded
 id row_index_key
+id rv_recipe
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3860,10 +3876,18 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tv_checkbox
-id tv_forgot_password
+id tv_count
+id tv_ingredients
 id tv_message
+id tv_no_data
+id tv_publisher
+id tv_publisher_link
+id tv_recipe_id
+id tv_recipe_title
+id tv_social_rank
+id tv_source_url
 id tv_title
+id tv_username
 id unchecked
 id uniform
 id unknown
@@ -4010,6 +4034,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_dash_board
 layout activity_login
+layout activity_recipe_details
 layout activity_sign_up
 layout activity_splash_screen
 layout app_bar_layout
@@ -4041,6 +4066,8 @@ layout dialog_error
 layout dialog_layout
 layout dialog_success
 layout dialog_update_profile
+layout layout_lottie_dialog
+layout loading_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4115,6 +4142,8 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout popup_dialog
+layout recipe__item_layout
+layout recipe_details_item_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -4125,6 +4154,9 @@ plurals mtrl_badge_content_description
 raw failed
 raw firebase_common_keep
 raw loader
+raw loader_loading
+raw loading
+raw loder_loading
 raw lottie_loader
 raw success
 raw warning
@@ -4345,6 +4377,9 @@ string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string newPassword
+string new_user
+string no
+string no_data_found
 string no_internet_connection
 string no_internet_msg
 string no_provider_toast
@@ -4358,6 +4393,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string please_wait
 string profile
+string register
 string registering
 string request
 string resend_otp_success_msg
@@ -4375,8 +4411,8 @@ string status_bar_notification_info_overflow
 string update_chrome_toast
 string updating_profile
 string userContractSignUp
+string userEmailLogin
 string userEmailSignUp
-string userNameLogin
 string userNameSignUp
 string userWebsiteSignUp
 style AlertDialog_AppCompat
@@ -5511,6 +5547,7 @@ style com_facebook_button_share
 style com_facebook_loginview_default_style
 style custom_button
 style edit_text
+style horizontal_divider_profile
 style large_text
 style password_edit_text
 style regular

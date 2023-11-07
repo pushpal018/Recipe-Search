@@ -7,6 +7,8 @@ import com.recipe.search.ui.view.auth.signUp.SignUpActivity
 import com.recipe.search.ui.view.auth.signUp.SignUpViewModel
 import com.recipe.search.ui.view.dashboard.DashBoardActivity
 import com.recipe.search.ui.view.dashboard.DashBoardViewModel
+import com.recipe.search.ui.view.recipe_details.RecipeDetailsActivity
+import com.recipe.search.ui.view.recipe_details.RecipeDetailsModule
 
 import com.recipe.search.ui.view.splash.SplashScreenActivity
 import com.recipe.search.ui.view.splash.SplashViewModule
@@ -35,5 +37,9 @@ abstract class ActivityBindingModule {
     @ActivityScope
     @ContributesAndroidInjector(modules = [SignUpViewModel::class])
     abstract fun bindEventSignUp(): SignUpActivity
+
+    @ActivityScope
+    @ContributesAndroidInjector(modules = [RecipeDetailsModule::class])
+    abstract fun bindEventDetails(): RecipeDetailsActivity
 
 }

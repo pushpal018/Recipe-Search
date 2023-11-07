@@ -6,11 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
-import androidx.appcompat.widget.AppCompatCheckBox;
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -30,28 +28,16 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final AppCompatButton btnCreateAccount;
 
   @NonNull
-  public final AppCompatCheckBox checkboxTermsAndConditions;
-
-  @NonNull
-  public final AppCompatEditText etMerchentName;
-
-  @NonNull
   public final AppCompatEditText etPin;
 
   @NonNull
   public final AppCompatEditText etPinConfirm;
 
   @NonNull
-  public final AppCompatEditText etUserContract;
-
-  @NonNull
   public final AppCompatEditText etUserEmail;
 
   @NonNull
   public final AppCompatEditText etUserName;
-
-  @NonNull
-  public final AppCompatEditText etUserWebsite;
 
   @NonNull
   public final Guideline guidelineLeft;
@@ -77,31 +63,20 @@ public final class ActivitySignUpBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout llPinConfirm;
 
-  @NonNull
-  public final TextView tvCheckbox;
-
   private ActivitySignUpBinding(@NonNull ScrollView rootView,
-      @NonNull AppCompatButton btnCreateAccount,
-      @NonNull AppCompatCheckBox checkboxTermsAndConditions,
-      @NonNull AppCompatEditText etMerchentName, @NonNull AppCompatEditText etPin,
-      @NonNull AppCompatEditText etPinConfirm, @NonNull AppCompatEditText etUserContract,
-      @NonNull AppCompatEditText etUserEmail, @NonNull AppCompatEditText etUserName,
-      @NonNull AppCompatEditText etUserWebsite, @NonNull Guideline guidelineLeft,
+      @NonNull AppCompatButton btnCreateAccount, @NonNull AppCompatEditText etPin,
+      @NonNull AppCompatEditText etPinConfirm, @NonNull AppCompatEditText etUserEmail,
+      @NonNull AppCompatEditText etUserName, @NonNull Guideline guidelineLeft,
       @NonNull Guideline guidelineRight, @NonNull AppCompatImageView ivLogo,
       @NonNull AppCompatImageView ivPinVisibility,
       @NonNull AppCompatImageView ivPinVisibilityConfirm, @NonNull LinearLayout linearLayout,
-      @NonNull ConstraintLayout llPin, @NonNull ConstraintLayout llPinConfirm,
-      @NonNull TextView tvCheckbox) {
+      @NonNull ConstraintLayout llPin, @NonNull ConstraintLayout llPinConfirm) {
     this.rootView = rootView;
     this.btnCreateAccount = btnCreateAccount;
-    this.checkboxTermsAndConditions = checkboxTermsAndConditions;
-    this.etMerchentName = etMerchentName;
     this.etPin = etPin;
     this.etPinConfirm = etPinConfirm;
-    this.etUserContract = etUserContract;
     this.etUserEmail = etUserEmail;
     this.etUserName = etUserName;
-    this.etUserWebsite = etUserWebsite;
     this.guidelineLeft = guidelineLeft;
     this.guidelineRight = guidelineRight;
     this.ivLogo = ivLogo;
@@ -110,7 +85,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
     this.linearLayout = linearLayout;
     this.llPin = llPin;
     this.llPinConfirm = llPinConfirm;
-    this.tvCheckbox = tvCheckbox;
   }
 
   @Override
@@ -146,18 +120,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.checkbox_terms_and_conditions;
-      AppCompatCheckBox checkboxTermsAndConditions = ViewBindings.findChildViewById(rootView, id);
-      if (checkboxTermsAndConditions == null) {
-        break missingId;
-      }
-
-      id = R.id.et_merchent_name;
-      AppCompatEditText etMerchentName = ViewBindings.findChildViewById(rootView, id);
-      if (etMerchentName == null) {
-        break missingId;
-      }
-
       id = R.id.et_pin;
       AppCompatEditText etPin = ViewBindings.findChildViewById(rootView, id);
       if (etPin == null) {
@@ -170,12 +132,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.et_user_contract;
-      AppCompatEditText etUserContract = ViewBindings.findChildViewById(rootView, id);
-      if (etUserContract == null) {
-        break missingId;
-      }
-
       id = R.id.et_user_email;
       AppCompatEditText etUserEmail = ViewBindings.findChildViewById(rootView, id);
       if (etUserEmail == null) {
@@ -185,12 +141,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
       id = R.id.et_user_name;
       AppCompatEditText etUserName = ViewBindings.findChildViewById(rootView, id);
       if (etUserName == null) {
-        break missingId;
-      }
-
-      id = R.id.et_user_website;
-      AppCompatEditText etUserWebsite = ViewBindings.findChildViewById(rootView, id);
-      if (etUserWebsite == null) {
         break missingId;
       }
 
@@ -242,16 +192,9 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tv_checkbox;
-      TextView tvCheckbox = ViewBindings.findChildViewById(rootView, id);
-      if (tvCheckbox == null) {
-        break missingId;
-      }
-
-      return new ActivitySignUpBinding((ScrollView) rootView, btnCreateAccount,
-          checkboxTermsAndConditions, etMerchentName, etPin, etPinConfirm, etUserContract,
-          etUserEmail, etUserName, etUserWebsite, guidelineLeft, guidelineRight, ivLogo,
-          ivPinVisibility, ivPinVisibilityConfirm, linearLayout, llPin, llPinConfirm, tvCheckbox);
+      return new ActivitySignUpBinding((ScrollView) rootView, btnCreateAccount, etPin, etPinConfirm,
+          etUserEmail, etUserName, guidelineLeft, guidelineRight, ivLogo, ivPinVisibility,
+          ivPinVisibilityConfirm, linearLayout, llPin, llPinConfirm);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

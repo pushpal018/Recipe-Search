@@ -9,8 +9,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.airbnb.lottie.LottieAnimationView;
 import com.recipe.search.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,21 +23,31 @@ public final class DialogSuccessBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final AppCompatButton btnOk;
+  public final LottieAnimationView animationView;
+
+  @NonNull
+  public final AppCompatButton btnNegative;
+
+  @NonNull
+  public final AppCompatButton btnPositive;
 
   @NonNull
   public final LinearLayout root;
 
   @NonNull
-  public final TextView tvMessage;
+  public final AppCompatTextView tvMessage;
 
   @NonNull
   public final TextView tvTitle;
 
-  private DialogSuccessBinding(@NonNull LinearLayout rootView, @NonNull AppCompatButton btnOk,
-      @NonNull LinearLayout root, @NonNull TextView tvMessage, @NonNull TextView tvTitle) {
+  private DialogSuccessBinding(@NonNull LinearLayout rootView,
+      @NonNull LottieAnimationView animationView, @NonNull AppCompatButton btnNegative,
+      @NonNull AppCompatButton btnPositive, @NonNull LinearLayout root,
+      @NonNull AppCompatTextView tvMessage, @NonNull TextView tvTitle) {
     this.rootView = rootView;
-    this.btnOk = btnOk;
+    this.animationView = animationView;
+    this.btnNegative = btnNegative;
+    this.btnPositive = btnPositive;
     this.root = root;
     this.tvMessage = tvMessage;
     this.tvTitle = tvTitle;
@@ -68,9 +80,21 @@ public final class DialogSuccessBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_ok;
-      AppCompatButton btnOk = ViewBindings.findChildViewById(rootView, id);
-      if (btnOk == null) {
+      id = R.id.animationView;
+      LottieAnimationView animationView = ViewBindings.findChildViewById(rootView, id);
+      if (animationView == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_negative;
+      AppCompatButton btnNegative = ViewBindings.findChildViewById(rootView, id);
+      if (btnNegative == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_positive;
+      AppCompatButton btnPositive = ViewBindings.findChildViewById(rootView, id);
+      if (btnPositive == null) {
         break missingId;
       }
 
@@ -81,7 +105,7 @@ public final class DialogSuccessBinding implements ViewBinding {
       }
 
       id = R.id.tv_message;
-      TextView tvMessage = ViewBindings.findChildViewById(rootView, id);
+      AppCompatTextView tvMessage = ViewBindings.findChildViewById(rootView, id);
       if (tvMessage == null) {
         break missingId;
       }
@@ -92,7 +116,8 @@ public final class DialogSuccessBinding implements ViewBinding {
         break missingId;
       }
 
-      return new DialogSuccessBinding((LinearLayout) rootView, btnOk, root, tvMessage, tvTitle);
+      return new DialogSuccessBinding((LinearLayout) rootView, animationView, btnNegative,
+          btnPositive, root, tvMessage, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

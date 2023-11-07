@@ -17,13 +17,13 @@ import com.recipe.search.R
 import com.recipe.search.data.prefs.PrefKeys
 import com.recipe.search.data.prefs.PreferenceManager
 import com.recipe.search.databinding.AppBarLayoutBinding
-import com.recipe.search.ui.view.dialog.DialogError
+import com.recipe.search.ui.dialog.DialogError
 import com.recipe.search.utils.AppLogger
 import com.recipe.search.utils.AppUtils
 import com.recipe.search.utils.MyAlertService
 import com.recipe.search.utils.keys.IntentKeys
 import com.bumptech.glide.Glide
-import com.recipe.search.ui.view.dialog.DialogSuccess
+import com.recipe.search.ui.dialog.DialogSuccess
 import com.recipe.search.utils.NetworkUtils
 import dagger.android.support.AndroidSupportInjection
 import java.lang.Exception

@@ -10,7 +10,7 @@ import androidx.fragment.app.DialogFragment
 import com.recipe.search.R
 import com.recipe.search.data.prefs.PrefKeys
 import com.recipe.search.data.prefs.PreferenceManager
-import com.recipe.search.ui.view.dialog.DialogError
+import com.recipe.search.ui.dialog.DialogError
 import com.bumptech.glide.Glide
 
 abstract class BaseDialogFragment : DialogFragment() {

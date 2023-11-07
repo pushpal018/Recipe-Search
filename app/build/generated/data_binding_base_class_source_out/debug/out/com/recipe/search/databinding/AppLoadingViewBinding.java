@@ -4,12 +4,12 @@ package com.recipe.search.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.airbnb.lottie.LottieAnimationView;
 import com.recipe.search.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,9 +20,10 @@ public final class AppLoadingViewBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final ImageView imgLoader;
+  public final LottieAnimationView imgLoader;
 
-  private AppLoadingViewBinding(@NonNull LinearLayout rootView, @NonNull ImageView imgLoader) {
+  private AppLoadingViewBinding(@NonNull LinearLayout rootView,
+      @NonNull LottieAnimationView imgLoader) {
     this.rootView = rootView;
     this.imgLoader = imgLoader;
   }
@@ -55,7 +56,7 @@ public final class AppLoadingViewBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.img_loader;
-      ImageView imgLoader = ViewBindings.findChildViewById(rootView, id);
+      LottieAnimationView imgLoader = ViewBindings.findChildViewById(rootView, id);
       if (imgLoader == null) {
         break missingId;
       }

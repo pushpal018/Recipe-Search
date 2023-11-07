@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,7 +23,7 @@ import java.lang.String;
 
 public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final AppCompatButton btnLogin;
@@ -31,7 +32,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final AppCompatEditText etPin;
 
   @NonNull
-  public final AppCompatEditText etUserName;
+  public final AppCompatEditText etUserEmail;
 
   @NonNull
   public final Guideline guidelineLeft;
@@ -55,29 +56,22 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final LinearLayout llSignupBtn;
 
   @NonNull
-  public final LinearLayout llTermsAndConditions;
-
-  @NonNull
   public final TextView loginPassword;
 
   @NonNull
-  public final TextView loginUserName;
+  public final TextView loginUserEmail;
 
-  @NonNull
-  public final TextView tvForgotPassword;
-
-  private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull AppCompatButton btnLogin,
-      @NonNull AppCompatEditText etPin, @NonNull AppCompatEditText etUserName,
+  private ActivityLoginBinding(@NonNull ScrollView rootView, @NonNull AppCompatButton btnLogin,
+      @NonNull AppCompatEditText etPin, @NonNull AppCompatEditText etUserEmail,
       @NonNull Guideline guidelineLeft, @NonNull Guideline guidelineRight,
       @NonNull AppCompatImageView ivLogo, @NonNull AppCompatImageView ivPinVisibility,
       @NonNull LinearLayout linearLayout, @NonNull ConstraintLayout llPin,
-      @NonNull LinearLayout llSignupBtn, @NonNull LinearLayout llTermsAndConditions,
-      @NonNull TextView loginPassword, @NonNull TextView loginUserName,
-      @NonNull TextView tvForgotPassword) {
+      @NonNull LinearLayout llSignupBtn, @NonNull TextView loginPassword,
+      @NonNull TextView loginUserEmail) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.etPin = etPin;
-    this.etUserName = etUserName;
+    this.etUserEmail = etUserEmail;
     this.guidelineLeft = guidelineLeft;
     this.guidelineRight = guidelineRight;
     this.ivLogo = ivLogo;
@@ -85,15 +79,13 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.linearLayout = linearLayout;
     this.llPin = llPin;
     this.llSignupBtn = llSignupBtn;
-    this.llTermsAndConditions = llTermsAndConditions;
     this.loginPassword = loginPassword;
-    this.loginUserName = loginUserName;
-    this.tvForgotPassword = tvForgotPassword;
+    this.loginUserEmail = loginUserEmail;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -130,9 +122,9 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.et_user_name;
-      AppCompatEditText etUserName = ViewBindings.findChildViewById(rootView, id);
-      if (etUserName == null) {
+      id = R.id.et_user_email;
+      AppCompatEditText etUserEmail = ViewBindings.findChildViewById(rootView, id);
+      if (etUserEmail == null) {
         break missingId;
       }
 
@@ -178,33 +170,21 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.ll_terms_and_conditions;
-      LinearLayout llTermsAndConditions = ViewBindings.findChildViewById(rootView, id);
-      if (llTermsAndConditions == null) {
-        break missingId;
-      }
-
       id = R.id.login_password;
       TextView loginPassword = ViewBindings.findChildViewById(rootView, id);
       if (loginPassword == null) {
         break missingId;
       }
 
-      id = R.id.login_userName;
-      TextView loginUserName = ViewBindings.findChildViewById(rootView, id);
-      if (loginUserName == null) {
+      id = R.id.login_userEmail;
+      TextView loginUserEmail = ViewBindings.findChildViewById(rootView, id);
+      if (loginUserEmail == null) {
         break missingId;
       }
 
-      id = R.id.tv_forgot_password;
-      TextView tvForgotPassword = ViewBindings.findChildViewById(rootView, id);
-      if (tvForgotPassword == null) {
-        break missingId;
-      }
-
-      return new ActivityLoginBinding((LinearLayout) rootView, btnLogin, etPin, etUserName,
+      return new ActivityLoginBinding((ScrollView) rootView, btnLogin, etPin, etUserEmail,
           guidelineLeft, guidelineRight, ivLogo, ivPinVisibility, linearLayout, llPin, llSignupBtn,
-          llTermsAndConditions, loginPassword, loginUserName, tvForgotPassword);
+          loginPassword, loginUserEmail);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

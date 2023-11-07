@@ -6,8 +6,11 @@ import android.os.Handler
 import android.view.View
 
 import com.recipe.search.base.MvpBaseActivity
+import com.recipe.search.data.prefs.PrefKeys
+import com.recipe.search.data.prefs.PreferenceManager
 import com.recipe.search.databinding.ActivitySplashScreenBinding
 import com.recipe.search.ui.view.auth.login.LoginActivity
+import com.recipe.search.ui.view.dashboard.DashBoardActivity
 import com.recipe.search.utils.Navigator
 
 
@@ -20,6 +23,7 @@ class SplashScreenActivity : MvpBaseActivity<SplashPresenter>(), SplashContract.
 
     private lateinit var binding: ActivitySplashScreenBinding
 
+
     override fun getContentView(): View {
 
         binding = ActivitySplashScreenBinding.inflate(layoutInflater)
@@ -31,14 +35,19 @@ class SplashScreenActivity : MvpBaseActivity<SplashPresenter>(), SplashContract.
 
     override fun onViewReady(savedInstanceState: Bundle?, intent: Intent) {
 
+        mPrefManager = PreferenceManager(this)
 
         Handler().postDelayed({
-            Navigator.sharedInstance.navigate(this, LoginActivity::class.java)
-        }, 5000)
+            if (mPrefManager.getBoolean(PrefKeys.LOGGED_IN, false)) {
+                val intent = Intent(this, DashBoardActivity::class.java)
+                startActivity(intent)
+            } else {
+                val intent = Intent(this, LoginActivity::class.java)
+                startActivity(intent)
+            }
 
-       // Glide.with(this).load(R.drawable.donate_blood_lg_clr).into(binding.ivImage);
-
-
+            finish()
+        }, 2000)
 
     }
 

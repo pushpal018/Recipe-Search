@@ -9,8 +9,11 @@ import com.recipe.search.base.BaseApplication;
 import com.recipe.search.base.BaseApplication_MembersInjector;
 import com.recipe.search.base.BasePresenter_MembersInjector;
 import com.recipe.search.base.MvpBaseActivity_MembersInjector;
+import com.recipe.search.data.network.ApiServiceBuilder;
+import com.recipe.search.data.network.api_service.SearchApiService;
 import com.recipe.search.data.prefs.PreferenceManager;
 import com.recipe.search.di.module.ActivityBindingModule_BindEventDashBoard;
+import com.recipe.search.di.module.ActivityBindingModule_BindEventDetails;
 import com.recipe.search.di.module.ActivityBindingModule_BindEventLogin;
 import com.recipe.search.di.module.ActivityBindingModule_BindEventSignUp;
 import com.recipe.search.di.module.ActivityBindingModule_BindEventSplashActivity;
@@ -21,6 +24,10 @@ import com.recipe.search.di.module.ApplicationModule_ProvideAppScheduleFactory;
 import com.recipe.search.di.module.ApplicationModule_ProvideContextFactory;
 import com.recipe.search.di.module.ApplicationModule_ProvideNetworkUtilsFactory;
 import com.recipe.search.di.module.ApplicationModule_ProvidePreferenceManagerFactory;
+import com.recipe.search.di.module.NetworkModule;
+import com.recipe.search.di.module.NetworkModule_ProvideApiServiceBuilderFactory;
+import com.recipe.search.di.module.NetworkModule_ProvideRetrofitApiClientFactory;
+import com.recipe.search.di.module.NetworkModule_ProvideSearchApiServiceFactory;
 import com.recipe.search.rx.AppSchedulerProvider;
 import com.recipe.search.ui.view.auth.login.LoginActivity;
 import com.recipe.search.ui.view.auth.login.LoginPresenter;
@@ -31,6 +38,11 @@ import com.recipe.search.ui.view.auth.signUp.SignUpPresenter_Factory;
 import com.recipe.search.ui.view.dashboard.DashBoardActivity;
 import com.recipe.search.ui.view.dashboard.DashBoardPresenter;
 import com.recipe.search.ui.view.dashboard.DashBoardPresenter_Factory;
+import com.recipe.search.ui.view.dashboard.DashBoardPresenter_MembersInjector;
+import com.recipe.search.ui.view.recipe_details.RecipeDetailsActivity;
+import com.recipe.search.ui.view.recipe_details.RecipeDetailsPresenter;
+import com.recipe.search.ui.view.recipe_details.RecipeDetailsPresenter_Factory;
+import com.recipe.search.ui.view.recipe_details.RecipeDetailsPresenter_MembersInjector;
 import com.recipe.search.ui.view.splash.SplashPresenter;
 import com.recipe.search.ui.view.splash.SplashPresenter_Factory;
 import com.recipe.search.ui.view.splash.SplashScreenActivity;
@@ -46,6 +58,7 @@ import dagger.internal.Preconditions;
 import java.util.Map;
 import javax.annotation.processing.Generated;
 import javax.inject.Provider;
+import retrofit2.Retrofit;
 
 @Generated(
   value = "dagger.internal.codegen.ComponentProcessor",
@@ -69,6 +82,9 @@ public final class DaggerAppComponent implements AppComponent {
   private Provider<ActivityBindingModule_BindEventSignUp.SignUpActivitySubcomponent.Builder>
       signUpActivitySubcomponentBuilderProvider;
 
+  private Provider<ActivityBindingModule_BindEventDetails.RecipeDetailsActivitySubcomponent.Builder>
+      recipeDetailsActivitySubcomponentBuilderProvider;
+
   private Provider<BaseApplication> applicationProvider;
 
   private Provider<Context> provideContextProvider;
@@ -83,11 +99,19 @@ public final class DaggerAppComponent implements AppComponent {
 
   private Provider<AppLogger> provideAppLoggerProvider;
 
+  private Provider<Retrofit> provideRetrofitApiClientProvider;
+
+  private Provider<ApiServiceBuilder> provideApiServiceBuilderProvider;
+
+  private Provider<SearchApiService> provideSearchApiServiceProvider;
+
   private DaggerAppComponent(
-      ApplicationModule applicationModuleParam, BaseApplication applicationParam) {
+      ApplicationModule applicationModuleParam,
+      NetworkModule networkModuleParam,
+      BaseApplication applicationParam) {
     this.application = applicationParam;
     this.applicationModule = applicationModuleParam;
-    initialize(applicationModuleParam, applicationParam);
+    initialize(applicationModuleParam, networkModuleParam, applicationParam);
   }
 
   public static AppComponent.Builder builder() {
@@ -104,7 +128,9 @@ public final class DaggerAppComponent implements AppComponent {
         LoginActivity.class,
         (Provider) loginActivitySubcomponentBuilderProvider,
         SignUpActivity.class,
-        (Provider) signUpActivitySubcomponentBuilderProvider);
+        (Provider) signUpActivitySubcomponentBuilderProvider,
+        RecipeDetailsActivity.class,
+        (Provider) recipeDetailsActivitySubcomponentBuilderProvider);
   }
 
   private DispatchingAndroidInjector<Activity> getDispatchingAndroidInjectorOfActivity() {
@@ -120,7 +146,9 @@ public final class DaggerAppComponent implements AppComponent {
 
   @SuppressWarnings("unchecked")
   private void initialize(
-      final ApplicationModule applicationModuleParam, final BaseApplication applicationParam) {
+      final ApplicationModule applicationModuleParam,
+      final NetworkModule networkModuleParam,
+      final BaseApplication applicationParam) {
     this.splashScreenActivitySubcomponentBuilderProvider =
         new Provider<
             ActivityBindingModule_BindEventSplashActivity.SplashScreenActivitySubcomponent
@@ -155,6 +183,15 @@ public final class DaggerAppComponent implements AppComponent {
             return new SignUpActivitySubcomponentBuilder();
           }
         };
+    this.recipeDetailsActivitySubcomponentBuilderProvider =
+        new Provider<
+            ActivityBindingModule_BindEventDetails.RecipeDetailsActivitySubcomponent.Builder>() {
+          @Override
+          public ActivityBindingModule_BindEventDetails.RecipeDetailsActivitySubcomponent.Builder
+              get() {
+            return new RecipeDetailsActivitySubcomponentBuilder();
+          }
+        };
     this.applicationProvider = InstanceFactory.create(applicationParam);
     this.provideContextProvider =
         ApplicationModule_ProvideContextFactory.create(applicationModuleParam, applicationProvider);
@@ -174,6 +211,21 @@ public final class DaggerAppComponent implements AppComponent {
     this.provideAppLoggerProvider =
         DoubleCheck.provider(
             ApplicationModule_ProvideAppLoggerFactory.create(applicationModuleParam));
+    this.provideRetrofitApiClientProvider =
+        DoubleCheck.provider(
+            NetworkModule_ProvideRetrofitApiClientFactory.create(
+                networkModuleParam,
+                provideContextProvider,
+                provideNetworkUtilsProvider,
+                providePreferenceManagerProvider));
+    this.provideApiServiceBuilderProvider =
+        DoubleCheck.provider(
+            NetworkModule_ProvideApiServiceBuilderFactory.create(
+                networkModuleParam, provideRetrofitApiClientProvider));
+    this.provideSearchApiServiceProvider =
+        DoubleCheck.provider(
+            NetworkModule_ProvideSearchApiServiceFactory.create(
+                networkModuleParam, provideApiServiceBuilderProvider));
   }
 
   @Override
@@ -193,6 +245,8 @@ public final class DaggerAppComponent implements AppComponent {
   private static final class Builder implements AppComponent.Builder {
     private ApplicationModule applicationModule;
 
+    private NetworkModule networkModule;
+
     private BaseApplication application;
 
     @Override
@@ -206,8 +260,11 @@ public final class DaggerAppComponent implements AppComponent {
       if (applicationModule == null) {
         this.applicationModule = new ApplicationModule();
       }
+      if (networkModule == null) {
+        this.networkModule = new NetworkModule();
+      }
       Preconditions.checkBuilderRequirement(application, BaseApplication.class);
-      return new DaggerAppComponent(applicationModule, application);
+      return new DaggerAppComponent(applicationModule, networkModule, application);
     }
   }
 
@@ -321,6 +378,8 @@ public final class DaggerAppComponent implements AppComponent {
       BasePresenter_MembersInjector.injectAppSchedulerProvider(
           instance, DaggerAppComponent.this.provideAppScheduleProvider.get());
       BasePresenter_MembersInjector.injectContext(instance, DaggerAppComponent.this.getContext());
+      DashBoardPresenter_MembersInjector.injectSearchApiService(
+          instance, DaggerAppComponent.this.provideSearchApiServiceProvider.get());
       return instance;
     }
 
@@ -457,6 +516,73 @@ public final class DaggerAppComponent implements AppComponent {
       MvpBaseActivity_MembersInjector.injectMFragmentInjector(
           instance, getDispatchingAndroidInjectorOfFragment());
       MvpBaseActivity_MembersInjector.injectMPresenter(instance, getSignUpPresenter());
+      MvpBaseActivity_MembersInjector.injectMAlertService(
+          instance, DaggerAppComponent.this.provideAlertServiceProvider.get());
+      MvpBaseActivity_MembersInjector.injectMNetworkUtils(
+          instance, DaggerAppComponent.this.provideNetworkUtilsProvider.get());
+      MvpBaseActivity_MembersInjector.injectMAppLogger(
+          instance, DaggerAppComponent.this.provideAppLoggerProvider.get());
+      MvpBaseActivity_MembersInjector.injectMPrefManager(
+          instance, DaggerAppComponent.this.providePreferenceManagerProvider.get());
+      return instance;
+    }
+  }
+
+  private final class RecipeDetailsActivitySubcomponentBuilder
+      extends ActivityBindingModule_BindEventDetails.RecipeDetailsActivitySubcomponent.Builder {
+    private RecipeDetailsActivity seedInstance;
+
+    @Override
+    public void seedInstance(RecipeDetailsActivity arg0) {
+      this.seedInstance = Preconditions.checkNotNull(arg0);
+    }
+
+    @Override
+    public ActivityBindingModule_BindEventDetails.RecipeDetailsActivitySubcomponent build() {
+      Preconditions.checkBuilderRequirement(seedInstance, RecipeDetailsActivity.class);
+      return new RecipeDetailsActivitySubcomponentImpl(seedInstance);
+    }
+  }
+
+  private final class RecipeDetailsActivitySubcomponentImpl
+      implements ActivityBindingModule_BindEventDetails.RecipeDetailsActivitySubcomponent {
+    private final RecipeDetailsActivity seedInstance;
+
+    private RecipeDetailsActivitySubcomponentImpl(RecipeDetailsActivity seedInstanceParam) {
+      this.seedInstance = seedInstanceParam;
+    }
+
+    private DispatchingAndroidInjector<Fragment> getDispatchingAndroidInjectorOfFragment() {
+      return DispatchingAndroidInjector_Factory.newDispatchingAndroidInjector(
+          DaggerAppComponent.this.getMapOfClassOfAndProviderOfFactoryOf(),
+          ImmutableMap.<String, Provider<AndroidInjector.Factory<?>>>of());
+    }
+
+    private RecipeDetailsPresenter getRecipeDetailsPresenter() {
+      return injectRecipeDetailsPresenter(
+          RecipeDetailsPresenter_Factory.newRecipeDetailsPresenter(seedInstance));
+    }
+
+    @Override
+    public void inject(RecipeDetailsActivity arg0) {
+      injectRecipeDetailsActivity(arg0);
+    }
+
+    @CanIgnoreReturnValue
+    private RecipeDetailsPresenter injectRecipeDetailsPresenter(RecipeDetailsPresenter instance) {
+      BasePresenter_MembersInjector.injectAppSchedulerProvider(
+          instance, DaggerAppComponent.this.provideAppScheduleProvider.get());
+      BasePresenter_MembersInjector.injectContext(instance, DaggerAppComponent.this.getContext());
+      RecipeDetailsPresenter_MembersInjector.injectRecipeApiService(
+          instance, DaggerAppComponent.this.provideSearchApiServiceProvider.get());
+      return instance;
+    }
+
+    @CanIgnoreReturnValue
+    private RecipeDetailsActivity injectRecipeDetailsActivity(RecipeDetailsActivity instance) {
+      MvpBaseActivity_MembersInjector.injectMFragmentInjector(
+          instance, getDispatchingAndroidInjectorOfFragment());
+      MvpBaseActivity_MembersInjector.injectMPresenter(instance, getRecipeDetailsPresenter());
       MvpBaseActivity_MembersInjector.injectMAlertService(
           instance, DaggerAppComponent.this.provideAlertServiceProvider.get());
       MvpBaseActivity_MembersInjector.injectMNetworkUtils(

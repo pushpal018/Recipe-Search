@@ -26,6 +26,7 @@
     <string name="maintenance_message">The system is currently undergoing routine maintenance to ensure you get the best experience. Please check back later.</string>
     <string name="resend_otp_success_msg">OTP resend successfully</string>
     <string name="okay">Ok</string>
+    <string name="no">No</string>
 
     <string name="error">Error!</string>
     <string name="server_error">Could not connect with server. Please try again later.</string>
@@ -39,9 +40,11 @@
 
     //LoginScreenString
     <string name="appName">Blood Share</string>
-    <string name="userNameLogin">User Name</string>
+    <string name="userEmailLogin">User Email</string>
     <string name="passwordLogin">Password</string>
     <string name="forgotPassLogin">Forgot Pass</string>
+    <string name="new_user">New User?</string>
+    <string name="register">Register Now</string>
     <string name="buttonLogin">Login</string>
 
     //SignUp
@@ -66,5 +69,7 @@
     <string name="newPassword">New Password</string>
     <string name="confirmPassword">Confirm Password</string>
     <string name="resetButton">Reset</string>
+
+    <string name="no_data_found">Could not find recipe with that name</string>
 
 </resources>

@@ -34,13 +34,13 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/iv_logo"
-                android:layout_width="52dp"
+                android:layout_width="wrap_content"
                 android:layout_height="52dp"
                 android:layout_marginTop="@dimen/iconTopMargin"
                 android:adjustViewBounds="true"
                 android:contentDescription="@null"
                 android:scaleType="centerCrop"
-                android:src="@drawable/donate_blood_lg_clr"
+                android:src="@drawable/brand_icon"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -61,21 +61,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:fontFamily="@font/nunito_bold"
-                    android:text="@string/appName"
-                    android:textColor="@color/header_text_color"
-                    android:textSize="@dimen/xxLargeText" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/iconStartMargin"
                     android:layout_marginTop="@dimen/veryLargeMargin"
                     android:layout_marginEnd="@dimen/iconStartMargin"
                     android:fontFamily="@font/nunito_bold"
                     android:text="@string/userNameSignUp"
-                    android:textColor="@color/sub_header_text_color"
+                    android:textColor="@color/brand_color"
                     android:textSize="@dimen/normal_text_size" />
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et_user_name"
@@ -90,28 +81,7 @@
                     android:textColor="@color/sub_header_text_color"
                     android:textSize="@dimen/edit_text_size" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/iconStartMargin"
-                    android:layout_marginTop="@dimen/header_text_top_margin"
-                    android:layout_marginEnd="@dimen/iconStartMargin"
-                    android:fontFamily="@font/nunito_bold"
-                    android:text="merchent_name"
-                    android:textColor="@color/sub_header_text_color"
-                    android:textSize="@dimen/normal_text_size" />
-                <androidx.appcompat.widget.AppCompatEditText
-                    android:id="@+id/et_merchent_name"
-                    style="@style/edit_text"
-                    android:layout_marginStart="@dimen/iconStartMargin"
-                    android:layout_marginTop="@dimen/activity_vertical_margin"
-                    android:layout_marginEnd="@dimen/iconStartMargin"
-                    android:background="@drawable/edit_text_background"
-                    android:fontFamily="@font/nunito_light"
-                    android:hint="asdf!@#$"
-                    android:inputType="text"
-                    android:textColor="@color/sub_header_text_color"
-                    android:textSize="@dimen/edit_text_size" />
+
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -121,7 +91,7 @@
                     android:layout_marginEnd="@dimen/iconStartMargin"
                     android:fontFamily="@font/nunito_bold"
                     android:text="@string/userEmailSignUp"
-                    android:textColor="@color/sub_header_text_color"
+                    android:textColor="@color/brand_color"
                     android:textSize="@dimen/normal_text_size" />
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et_user_email"
@@ -133,54 +103,6 @@
                     android:fontFamily="@font/nunito_light"
                     android:hint="exam@gmail.com"
                     android:inputType="textEmailAddress"
-                    android:textColor="@color/sub_header_text_color"
-                    android:textSize="@dimen/edit_text_size" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/iconStartMargin"
-                    android:layout_marginTop="@dimen/header_text_top_margin"
-                    android:layout_marginEnd="@dimen/iconStartMargin"
-                    android:fontFamily="@font/nunito_bold"
-                    android:text="@string/userContractSignUp"
-                    android:textColor="@color/sub_header_text_color"
-                    android:textSize="@dimen/normal_text_size" />
-                <androidx.appcompat.widget.AppCompatEditText
-                    android:id="@+id/et_user_contract"
-                    style="@style/edit_text"
-                    android:layout_marginStart="@dimen/iconStartMargin"
-                    android:layout_marginTop="@dimen/activity_vertical_margin"
-                    android:layout_marginEnd="@dimen/iconStartMargin"
-                    android:background="@drawable/edit_text_background"
-                    android:fontFamily="@font/nunito_light"
-                    android:hint="+8801XXX-XXX-XXX"
-                    android:inputType="phone"
-                    android:maxLength="11"
-                    android:textColor="@color/sub_header_text_color"
-                    android:textSize="@dimen/edit_text_size" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/iconStartMargin"
-                    android:layout_marginTop="@dimen/header_text_top_margin"
-                    android:layout_marginEnd="@dimen/iconStartMargin"
-
-                    android:fontFamily="@font/nunito_bold"
-                    android:text="@string/userWebsiteSignUp"
-                    android:textColor="@color/sub_header_text_color"
-                    android:textSize="@dimen/normal_text_size" />
-                <androidx.appcompat.widget.AppCompatEditText
-                    android:id="@+id/et_user_website"
-                    style="@style/edit_text"
-                    android:layout_marginStart="@dimen/iconStartMargin"
-                    android:layout_marginTop="@dimen/activity_vertical_margin"
-                    android:layout_marginEnd="@dimen/iconStartMargin"
-                    android:background="@drawable/edit_text_background"
-                    android:fontFamily="@font/nunito_light"
-                    android:hint="https://www.google.com/"
-                    android:inputType="textUri"
                     android:textColor="@color/sub_header_text_color"
                     android:textSize="@dimen/edit_text_size" />
 
@@ -285,37 +207,6 @@
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="@dimen/header_text_top_margin"
-                    android:layout_marginHorizontal="@dimen/iconStartMargin"
-                    android:orientation="horizontal"
-                    android:layout_marginBottom="@dimen/smallMargin">
-
-                    <androidx.appcompat.widget.AppCompatCheckBox
-                        android:id="@+id/checkbox_terms_and_conditions"
-                        android:layout_width="40dp"
-                        android:gravity="center"
-                        android:checked="false"
-                        android:layout_marginTop="2.5dp"
-                        android:layout_height="40dp"/>
-
-                    <TextView
-                        android:id="@+id/tv_checkbox"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="start"
-                        android:clickable="false"
-                        android:focusable="true"
-                        android:fontFamily="@font/nunito_light"
-                        android:textColor="@color/sub_header_text_color"
-                        android:textSize="@dimen/normal_text_size"
-                        android:text="@string/agreeTermsAndConditionsSignUp"/>
-
-                </LinearLayout>
-
 
             </LinearLayout>
 

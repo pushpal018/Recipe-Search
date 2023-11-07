@@ -4,20 +4,63 @@ package com.recipe.search.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.recipe.search.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityDashBoardBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private ActivityDashBoardBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final ImageView btnSearch;
+
+  @NonNull
+  public final EditText etSearch;
+
+  @NonNull
+  public final LinearLayout llNoDataFound;
+
+  @NonNull
+  public final LinearLayout llRecipe;
+
+  @NonNull
+  public final RecyclerView rvRecipe;
+
+  @NonNull
+  public final AppCompatTextView tvCount;
+
+  @NonNull
+  public final TextView tvNoData;
+
+  @NonNull
+  public final TextView tvUsername;
+
+  private ActivityDashBoardBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnSearch,
+      @NonNull EditText etSearch, @NonNull LinearLayout llNoDataFound,
+      @NonNull LinearLayout llRecipe, @NonNull RecyclerView rvRecipe,
+      @NonNull AppCompatTextView tvCount, @NonNull TextView tvNoData,
+      @NonNull TextView tvUsername) {
     this.rootView = rootView;
+    this.btnSearch = btnSearch;
+    this.etSearch = etSearch;
+    this.llNoDataFound = llNoDataFound;
+    this.llRecipe = llRecipe;
+    this.rvRecipe = rvRecipe;
+    this.tvCount = tvCount;
+    this.tvNoData = tvNoData;
+    this.tvUsername = tvUsername;
   }
 
   @Override
@@ -43,10 +86,62 @@ public final class ActivityDashBoardBinding implements ViewBinding {
 
   @NonNull
   public static ActivityDashBoardBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btn_search;
+      ImageView btnSearch = ViewBindings.findChildViewById(rootView, id);
+      if (btnSearch == null) {
+        break missingId;
+      }
 
-    return new ActivityDashBoardBinding((LinearLayout) rootView);
+      id = R.id.et_search;
+      EditText etSearch = ViewBindings.findChildViewById(rootView, id);
+      if (etSearch == null) {
+        break missingId;
+      }
+
+      id = R.id.ll_no_data_found;
+      LinearLayout llNoDataFound = ViewBindings.findChildViewById(rootView, id);
+      if (llNoDataFound == null) {
+        break missingId;
+      }
+
+      id = R.id.ll_recipe;
+      LinearLayout llRecipe = ViewBindings.findChildViewById(rootView, id);
+      if (llRecipe == null) {
+        break missingId;
+      }
+
+      id = R.id.rv_recipe;
+      RecyclerView rvRecipe = ViewBindings.findChildViewById(rootView, id);
+      if (rvRecipe == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_count;
+      AppCompatTextView tvCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvCount == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_no_data;
+      TextView tvNoData = ViewBindings.findChildViewById(rootView, id);
+      if (tvNoData == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_username;
+      TextView tvUsername = ViewBindings.findChildViewById(rootView, id);
+      if (tvUsername == null) {
+        break missingId;
+      }
+
+      return new ActivityDashBoardBinding((LinearLayout) rootView, btnSearch, etSearch,
+          llNoDataFound, llRecipe, rvRecipe, tvCount, tvNoData, tvUsername);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

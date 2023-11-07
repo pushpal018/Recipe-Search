@@ -51,8 +51,24 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@drawable/ic_launcher_foreground"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/NoActionBar"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.recipe.search.ui.view.recipe_details.RecipeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="io.appwrite.views.CallbackActivity"
+            android:exported="true" >
+            <intent-filter android:label="android_web_auth" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="appwrite-callback-65489eefaa3bd07f3d1a" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.recipe.search.ui.view.auth.login.LoginActivity"
             android:exported="false" />

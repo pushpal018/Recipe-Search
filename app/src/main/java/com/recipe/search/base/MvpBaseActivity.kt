@@ -16,15 +16,16 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import butterknife.ButterKnife
 import butterknife.Unbinder
+import com.airbnb.lottie.LottieAnimationView
 import com.recipe.search.R
 import com.recipe.search.data.prefs.PrefKeys
 import com.recipe.search.data.prefs.PreferenceManager
 import com.recipe.search.databinding.AppBarLayoutBinding
-import com.recipe.search.ui.view.dialog.DialogError
+import com.recipe.search.ui.dialog.DialogError
 import com.recipe.search.utils.*
 import com.recipe.search.utils.keys.IntentKeys
 import com.bumptech.glide.Glide
-import com.recipe.search.ui.view.dialog.DialogSuccess
+import com.recipe.search.ui.dialog.DialogSuccess
 import com.recipe.search.utils.NetworkUtils
 import dagger.android.AndroidInjection
 import dagger.android.AndroidInjector
@@ -129,8 +130,8 @@ abstract class MvpBaseActivity<P : BaseContract.Presenter> : AppCompatActivity()
             val loaderBuilder = AlertDialog.Builder(this)
             loaderBuilder.setCancelable(false)
             val loadingView = LayoutInflater.from(this).inflate(R.layout.app_loading_view, null)
-            val gifImgView = loadingView.findViewById<ImageView>(R.id.img_loader)
-            Glide.with(this).asGif().load(R.raw.lottie_loader).into(gifImgView)
+            val gifImgView = loadingView.findViewById<LottieAnimationView>(R.id.img_loader)
+            Glide.with(this).asGif().load(R.raw.loader_loading).into(gifImgView)
             loaderBuilder.setView(loadingView)
             loader = loaderBuilder.create()
             loader?.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))

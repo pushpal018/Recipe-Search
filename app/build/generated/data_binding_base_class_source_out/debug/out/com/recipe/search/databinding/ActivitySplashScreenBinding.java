@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
@@ -14,7 +15,6 @@ import com.recipe.search.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
-import pl.droidsonroids.gif.GifImageView;
 
 public final class ActivitySplashScreenBinding implements ViewBinding {
   @NonNull
@@ -27,11 +27,11 @@ public final class ActivitySplashScreenBinding implements ViewBinding {
   public final Guideline guidelineRight;
 
   @NonNull
-  public final GifImageView ivRobi;
+  public final AppCompatImageView ivRobi;
 
   private ActivitySplashScreenBinding(@NonNull ConstraintLayout rootView,
       @NonNull Guideline guidelineLeft, @NonNull Guideline guidelineRight,
-      @NonNull GifImageView ivRobi) {
+      @NonNull AppCompatImageView ivRobi) {
     this.rootView = rootView;
     this.guidelineLeft = guidelineLeft;
     this.guidelineRight = guidelineRight;
@@ -78,7 +78,7 @@ public final class ActivitySplashScreenBinding implements ViewBinding {
       }
 
       id = R.id.iv_robi;
-      GifImageView ivRobi = ViewBindings.findChildViewById(rootView, id);
+      AppCompatImageView ivRobi = ViewBindings.findChildViewById(rootView, id);
       if (ivRobi == null) {
         break missingId;
       }

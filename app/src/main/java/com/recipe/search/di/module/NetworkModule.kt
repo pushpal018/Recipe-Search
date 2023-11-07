@@ -3,6 +3,7 @@ package com.recipe.search.di.module
 import android.content.Context
 import com.recipe.search.data.network.ApiServiceBuilder
 import com.recipe.search.data.network.RetrofitApiClient
+import com.recipe.search.data.network.api_service.SearchApiService
 import com.recipe.search.data.prefs.PreferenceManager
 import com.recipe.search.utils.NetworkUtils
 import dagger.Module
@@ -29,4 +30,11 @@ class NetworkModule {
     fun provideApiServiceBuilder(retrofit: Retrofit): ApiServiceBuilder {
         return ApiServiceBuilder(retrofit)
     }
+    @Provides
+    @Singleton
+    fun provideSearchApiService(apiServiceBuilder: ApiServiceBuilder): SearchApiService {
+        return apiServiceBuilder.buildService(SearchApiService::class.java)
+    }
+
+
 }

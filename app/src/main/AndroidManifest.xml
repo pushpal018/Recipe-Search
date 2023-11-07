@@ -12,7 +12,7 @@
         android:required="false" />
 
     <application
-        android:name="com.recipe.search.base.BaseApplication"
+        android:name=".base.BaseApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="false"
@@ -26,15 +26,28 @@
         tools:ignore="UnusedAttribute"
         tools:replace="android:label">
         <activity
-            android:name="com.recipe.search.ui.view.auth.login.LoginActivity"
+            android:name=".ui.view.recipe_details.RecipeDetailsActivity"
             android:exported="false" />
-
         <activity
-            android:name="com.recipe.search.ui.view.auth.signUp.SignUpActivity"
+            android:name="io.appwrite.views.CallbackActivity"
+            android:exported="true">
+            <intent-filter android:label="android_web_auth">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="appwrite-callback-65489eefaa3bd07f3d1a" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.view.auth.login.LoginActivity"
             android:exported="false" />
-
         <activity
-            android:name="com.recipe.search.ui.view.dashboard.DashBoardActivity"
+            android:name=".ui.view.auth.signUp.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.dashboard.DashBoardActivity"
             android:exported="true">
 
             <!-- <intent-filter> -->
@@ -45,10 +58,10 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name="com.recipe.search.ui.view.splash.SplashScreenActivity"
+            android:name=".ui.view.splash.SplashScreenActivity"
             android:exported="true"
-            android:theme="@style/SplashScreen"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="fullSensor"
+            android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

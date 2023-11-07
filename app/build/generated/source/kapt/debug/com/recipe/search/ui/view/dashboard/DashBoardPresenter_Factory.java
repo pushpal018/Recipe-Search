@@ -2,6 +2,7 @@ package com.recipe.search.ui.view.dashboard;
 
 import android.content.Context;
 import com.recipe.search.base.BasePresenter_MembersInjector;
+import com.recipe.search.data.network.api_service.SearchApiService;
 import com.recipe.search.rx.AppSchedulerProvider;
 import dagger.internal.Factory;
 import javax.annotation.processing.Generated;
@@ -18,13 +19,17 @@ public final class DashBoardPresenter_Factory implements Factory<DashBoardPresen
 
   private final Provider<Context> contextProvider;
 
+  private final Provider<SearchApiService> searchApiServiceProvider;
+
   public DashBoardPresenter_Factory(
       Provider<DashBoardContract.View> viewProvider,
       Provider<AppSchedulerProvider> appSchedulerProvider,
-      Provider<Context> contextProvider) {
+      Provider<Context> contextProvider,
+      Provider<SearchApiService> searchApiServiceProvider) {
     this.viewProvider = viewProvider;
     this.appSchedulerProvider = appSchedulerProvider;
     this.contextProvider = contextProvider;
+    this.searchApiServiceProvider = searchApiServiceProvider;
   }
 
   @Override
@@ -32,14 +37,18 @@ public final class DashBoardPresenter_Factory implements Factory<DashBoardPresen
     DashBoardPresenter instance = new DashBoardPresenter(viewProvider.get());
     BasePresenter_MembersInjector.injectAppSchedulerProvider(instance, appSchedulerProvider.get());
     BasePresenter_MembersInjector.injectContext(instance, contextProvider.get());
+    DashBoardPresenter_MembersInjector.injectSearchApiService(
+        instance, searchApiServiceProvider.get());
     return instance;
   }
 
   public static DashBoardPresenter_Factory create(
       Provider<DashBoardContract.View> viewProvider,
       Provider<AppSchedulerProvider> appSchedulerProvider,
-      Provider<Context> contextProvider) {
-    return new DashBoardPresenter_Factory(viewProvider, appSchedulerProvider, contextProvider);
+      Provider<Context> contextProvider,
+      Provider<SearchApiService> searchApiServiceProvider) {
+    return new DashBoardPresenter_Factory(
+        viewProvider, appSchedulerProvider, contextProvider, searchApiServiceProvider);
   }
 
   public static DashBoardPresenter newDashBoardPresenter(DashBoardContract.View view) {

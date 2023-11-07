@@ -1,4 +1,4 @@
-package com.walletmix.marchant.service.sms_retriver
+package com.recipe.search.service.sms_retriver
 
 import android.content.BroadcastReceiver
 import android.content.Context
