@@ -1,286 +1,286 @@
 [
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_app_loading_view.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\app_loading_view.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/raw_loading.json.flat",
+        "source": "com.recipe.search.app-main-58:/raw/loading.json"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable-ldpi_no_data_found.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-pngs-0:\\drawable-ldpi\\no_data_found.png"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_search_icon.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/search_icon.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_button_background.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\button_background.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_loading_view.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/loading_view.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\raw_success.json.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\raw\\success.json"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_password_visibility.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/password_visibility.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_loading_view.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\loading_view.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_logout_icon.png.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/logout_icon.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_dialog_success.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\dialog_success.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_activity_login.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/activity_login.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_dialog_layout.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\dialog_layout.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/font_nunito_light.ttf.flat",
+        "source": "com.recipe.search.app-main-58:/font/nunito_light.ttf"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\raw_loader.gif.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\raw\\loader.gif"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_nav_header_home.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/nav_header_home.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_brand_icon.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\brand_icon.png"
+        "merged": "com.recipe.search.app-merged_res-56:/font_nunito_semibold.ttf.flat",
+        "source": "com.recipe.search.app-main-58:/font/nunito_semibold.ttf"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-pngs-0:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_profile.png.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/profile.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_nav_header_home.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\nav_header_home.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable-mdpi_no_data_found.png.flat",
+        "source": "com.recipe.search.app-pngs-52:/drawable-mdpi/no_data_found.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\color_segment_text_color.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\color\\segment_text_color.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/xml_provider_path.xml.flat",
+        "source": "com.recipe.search.app-main-58:/xml/provider_path.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_dashboard.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\dashboard.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/font_nunito_font_family.xml.flat",
+        "source": "com.recipe.search.app-main-58:/font/nunito_font_family.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_activity_splash_screen.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\activity_splash_screen.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_dialog_success.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/dialog_success.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_activity_login.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\activity_login.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_brand_icon.png.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/brand_icon.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_activity_recipe_details.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\activity_recipe_details.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_error_placeholder.png.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/error_placeholder.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_change_password_icon.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\change_password_icon.png"
+        "merged": "com.recipe.search.app-merged_res-56:/raw_warning.json.flat",
+        "source": "com.recipe.search.app-main-58:/raw/warning.json"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_img_placeholder.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\img_placeholder.png"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_ic_baseline_visibility_off.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/ic_baseline_visibility_off.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\raw_loder_loading.gif.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\raw\\loder_loading.gif"
+        "merged": "com.recipe.search.app-merged_res-56:/color_button_text_color.xml.flat",
+        "source": "com.recipe.search.app-main-58:/color/button_text_color.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_popup_dialog.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\popup_dialog.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/raw_loader_loading.gif.flat",
+        "source": "com.recipe.search.app-main-58:/raw/loader_loading.gif"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_password_visibility.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\password_visibility.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_recipe_details_item_layout.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/recipe_details_item_layout.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\color_custom_tab_text_color.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\color\\custom_tab_text_color.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/xml_data_extraction_rules.xml.flat",
+        "source": "com.recipe.search.app-main-58:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\color_quick_service_text_color.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\color\\quick_service_text_color.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable-xxxhdpi_no_data_found.png.flat",
+        "source": "com.recipe.search.app-pngs-52:/drawable-xxxhdpi/no_data_found.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\color_button_text_color.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\color\\button_text_color.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable-hdpi_no_data_found.png.flat",
+        "source": "com.recipe.search.app-pngs-52:/drawable-hdpi/no_data_found.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_custome_edit_text_background.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\custome_edit_text_background.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_activity_appwrite_registration.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/activity_appwrite_registration.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_logout_icon.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\logout_icon.png"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_activity_sign_up.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\raw_lottie_loader.json.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\raw\\lottie_loader.json"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.recipe.search.app-pngs-52:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_dialog_background.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\dialog_background.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/font_nunito_bold.ttf.flat",
+        "source": "com.recipe.search.app-main-58:/font/nunito_bold.ttf"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_error_placeholder.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\error_placeholder.png"
+        "merged": "com.recipe.search.app-merged_res-56:/menu_menu_logout.xml.flat",
+        "source": "com.recipe.search.app-main-58:/menu/menu_logout.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_edit_text_background.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\edit_text_background.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_popup_dialog.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/popup_dialog.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_recipe_details_item_layout.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\recipe_details_item_layout.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_edit_text_background.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/edit_text_background.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_search_icon.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\search_icon.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_change_password_icon.png.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/change_password_icon.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\font_nunito_font_family.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\font\\nunito_font_family.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/raw_success.json.flat",
+        "source": "com.recipe.search.app-main-58:/raw/success.json"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_donate_blood_lg_clr.gif.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\donate_blood_lg_clr.gif"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_img_placeholder.png.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/img_placeholder.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\menu_menu_bottom.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\menu\\menu_bottom.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_ic_baseline_visibility.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/ic_baseline_visibility.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\raw_failed.json.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\raw\\failed.json"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_placeholder.png.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/placeholder.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable-hdpi_no_data_found.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-pngs-0:\\drawable-hdpi\\no_data_found.png"
+        "merged": "com.recipe.search.app-merged_res-56:/menu_menu_bottom.xml.flat",
+        "source": "com.recipe.search.app-main-58:/menu/menu_bottom.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\font_nunito_italic.ttf.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\font\\nunito_italic.ttf"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_ic_launcher_test_foreground.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/ic_launcher_test_foreground.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\xml_data_extraction_rules.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\xml\\data_extraction_rules.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_button_background.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/button_background.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\raw_warning.json.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\raw\\warning.json"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_activity_dash_board.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/activity_dash_board.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_edit_text.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\edit_text.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_recipe__item_layout.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/recipe__item_layout.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable-xxhdpi_no_data_found.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-pngs-0:\\drawable-xxhdpi\\no_data_found.png"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_app_bar_layout.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/app_bar_layout.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_placeholder.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\placeholder.png"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_dialog_error.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/dialog_error.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_activity_dash_board.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\activity_dash_board.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/raw_loader.gif.flat",
+        "source": "com.recipe.search.app-main-58:/raw/loader.gif"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable-xhdpi_no_data_found.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-pngs-0:\\drawable-xhdpi\\no_data_found.png"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_profile.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\profile.png"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_dashboard.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/dashboard.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_dialog_update_profile.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\dialog_update_profile.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable-xxhdpi_no_data_found.png.flat",
+        "source": "com.recipe.search.app-pngs-52:/drawable-xxhdpi/no_data_found.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\color_bottom_nav_color.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\color\\bottom_nav_color.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable-anydpi-v24_no_data_found.xml.flat",
+        "source": "com.recipe.search.app-pngs-52:/drawable-anydpi-v24/no_data_found.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\raw_loader_loading.gif.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\raw\\loader_loading.gif"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_list.png.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/list.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_list.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\list.png"
+        "merged": "com.recipe.search.app-merged_res-56:/raw_lottie_loader.json.flat",
+        "source": "com.recipe.search.app-main-58:/raw/lottie_loader.json"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_dialog_error.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\dialog_error.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_custome_edit_text_background.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/custome_edit_text_background.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_activity_sign_up.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\activity_sign_up.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/color_custom_tab_text_color.xml.flat",
+        "source": "com.recipe.search.app-main-58:/color/custom_tab_text_color.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_ic_baseline_visibility_off.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\ic_baseline_visibility_off.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_app_loading_view.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/app_loading_view.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_app_bar_layout.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\app_bar_layout.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/raw_loder_loading.gif.flat",
+        "source": "com.recipe.search.app-main-58:/raw/loder_loading.gif"
     },
     {
-        "merged": "com.recipe.search.app-merged_res-4:/layout_activity_recipe_details.xml.flat",
-        "source": "com.recipe.search.app-main-6:/layout/activity_recipe_details.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable-ldpi_no_data_found.png.flat",
+        "source": "com.recipe.search.app-pngs-52:/drawable-ldpi/no_data_found.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_ic_baseline_visibility.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\ic_baseline_visibility.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_dawer_divider.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/dawer_divider.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\font_nunito_light.ttf.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\font\\nunito_light.ttf"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_dialog_update_profile.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/dialog_update_profile.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\font_nunito_regular.ttf.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\font\\nunito_regular.ttf"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_edit_text.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/edit_text.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_dawer_divider.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\dawer_divider.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/font_nunito_italic.ttf.flat",
+        "source": "com.recipe.search.app-main-58:/font/nunito_italic.ttf"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\menu_menu_logout.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\menu\\menu_logout.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/color_bottom_nav_color.xml.flat",
+        "source": "com.recipe.search.app-main-58:/color/bottom_nav_color.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable-anydpi-v24_no_data_found.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-pngs-0:\\drawable-anydpi-v24\\no_data_found.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_donate_blood_lg_clr.gif.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/donate_blood_lg_clr.gif"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\font_nunito_bold.ttf.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\font\\nunito_bold.ttf"
+        "merged": "com.recipe.search.app-merged_res-56:/font_nunito_regular.ttf.flat",
+        "source": "com.recipe.search.app-main-58:/font/nunito_regular.ttf"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\font_nunito_semibold.ttf.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\font\\nunito_semibold.ttf"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_dialog_background.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/dialog_background.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\layout_recipe__item_layout.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\recipe__item_layout.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_activity_recipe_details.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/activity_recipe_details.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\raw_loading.json.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\raw\\loading.json"
+        "merged": "com.recipe.search.app-merged_res-56:/raw_failed.json.flat",
+        "source": "com.recipe.search.app-main-58:/raw/failed.json"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_ic_launcher_test_foreground.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\ic_launcher_test_foreground.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_activity_splash_screen.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\xml_provider_path.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\xml\\provider_path.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/color_segment_text_color.xml.flat",
+        "source": "com.recipe.search.app-main-58:/color/segment_text_color.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable-xxxhdpi_no_data_found.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-pngs-0:\\drawable-xxxhdpi\\no_data_found.png"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable-xhdpi_no_data_found.png.flat",
+        "source": "com.recipe.search.app-pngs-52:/drawable-xhdpi/no_data_found.png"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_circle.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\circle.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/layout_dialog_layout.xml.flat",
+        "source": "com.recipe.search.app-main-58:/layout/dialog_layout.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.recipe.search.app-merged_res-56:/color_quick_service_text_color.xml.flat",
+        "source": "com.recipe.search.app-main-58:/color/quick_service_text_color.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-merged_res-4:\\drawable-mdpi_no_data_found.png.flat",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-pngs-0:\\drawable-mdpi\\no_data_found.png"
+        "merged": "com.recipe.search.app-merged_res-56:/drawable_circle.xml.flat",
+        "source": "com.recipe.search.app-main-58:/drawable/circle.xml"
     }
 ]

@@ -1,59 +1,59 @@
-com.recipe.search.app-pngs-0 D:\Recipe Search App\app\build\generated\res\pngs\debug
-com.recipe.search.app-resValues-1 D:\Recipe Search App\app\build\generated\res\resValues\debug
-com.recipe.search.app-mergeDebugResources-2 D:\Recipe Search App\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.recipe.search.app-mergeDebugResources-3 D:\Recipe Search App\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.recipe.search.app-merged_res-4 D:\Recipe Search App\app\build\intermediates\merged_res\debug
-com.recipe.search.app-debug-5 D:\Recipe Search App\app\src\debug\res
-com.recipe.search.app-main-6 D:\Recipe Search App\app\src\main\res
-com.recipe.search.app-jetified-annotation-experimental-1.3.0-7 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\004b80e399c8733f558025f9f4ea332e\transformed\jetified-annotation-experimental-1.3.0\res
-com.recipe.search.app-jetified-lifecycle-livedata-core-ktx-2.6.1-8 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\00702251992bfdfcd2becbaac978aec3\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\res
-com.recipe.search.app-jetified-emoji2-views-helper-1.2.0-9 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\00e13edff1f37f804481bb4a8ef161f6\transformed\jetified-emoji2-views-helper-1.2.0\res
-com.recipe.search.app-lifecycle-runtime-2.6.1-10 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\17ff9dcba458459c60599daab267e838\transformed\lifecycle-runtime-2.6.1\res
-com.recipe.search.app-browser-1.4.0-11 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\18fd37d3c0c16157be948c7e1a37e899\transformed\browser-1.4.0\res
-com.recipe.search.app-jetified-activity-ktx-1.6.1-12 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\1a24c76c1ed957010f44f516565daa56\transformed\jetified-activity-ktx-1.6.1\res
-com.recipe.search.app-jetified-facebook-common-5.15.3-13 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\1bba66329cf0d2087d0028585cef8007\transformed\jetified-facebook-common-5.15.3\res
-com.recipe.search.app-jetified-facebook-messenger-5.15.3-14 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\1e38c2cd1f8649814abee38827470dfb\transformed\jetified-facebook-messenger-5.15.3\res
-com.recipe.search.app-lifecycle-livedata-core-2.6.1-15 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\1f5aee977150f9a5b3c827c9a3781bd1\transformed\lifecycle-livedata-core-2.6.1\res
-com.recipe.search.app-jetified-viewpager2-1.0.0-16 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\23f2451fdbeb64d3632fdeaa099ac239\transformed\jetified-viewpager2-1.0.0\res
-com.recipe.search.app-lifecycle-viewmodel-2.6.1-17 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\2994431fbe40f2190c50defef7b921d8\transformed\lifecycle-viewmodel-2.6.1\res
-com.recipe.search.app-jetified-play-services-basement-18.1.0-18 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\2b621b53e72f54d013c45edf5ceb9f50\transformed\jetified-play-services-basement-18.1.0\res
-com.recipe.search.app-cardview-1.0.0-19 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\2c4b56a6910aa81b8e3da4655631f7fb\transformed\cardview-1.0.0\res
-com.recipe.search.app-jetified-circleimageview-2.2.0-20 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\2fd9d14582398358136413acd44862d0\transformed\jetified-circleimageview-2.2.0\res
-com.recipe.search.app-jetified-facebook-login-5.15.3-21 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\3154214892ab836801af1126e1db7761\transformed\jetified-facebook-login-5.15.3\res
-com.recipe.search.app-appcompat-1.7.0-alpha02-22 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\33de08c258de4f58b8bfbe4f43d9471e\transformed\appcompat-1.7.0-alpha02\res
-com.recipe.search.app-jetified-startup-runtime-1.1.1-23 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\3637809eea437115bb28ee4a10ab6254\transformed\jetified-startup-runtime-1.1.1\res
-com.recipe.search.app-jetified-emoji2-1.2.0-24 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\380895a3054a5c45ab9967fbd491d3ee\transformed\jetified-emoji2-1.2.0\res
-com.recipe.search.app-core-runtime-2.2.0-25 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\3cdaf9966e148812d0ab4cc238ccda6b\transformed\core-runtime-2.2.0\res
-com.recipe.search.app-jetified-activity-1.6.1-26 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\45b8c191aa28d2d960773ab1c7e165db\transformed\jetified-activity-1.6.1\res
-com.recipe.search.app-constraintlayout-2.1.4-27 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\47919fef8843e19e41b39ff15469e0ab\transformed\constraintlayout-2.1.4\res
-com.recipe.search.app-fragment-1.5.5-28 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\51ee2ea7149ca4515aba81e6e1c59350\transformed\fragment-1.5.5\res
-com.recipe.search.app-jetified-play-services-base-18.1.0-29 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\57aac46dfad59f344b10652419d0965d\transformed\jetified-play-services-base-18.1.0\res
-com.recipe.search.app-jetified-android-gif-drawable-1.2.22-30 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\58dedb3afceee0e3f5b912806f119c2e\transformed\jetified-android-gif-drawable-1.2.22\res
-com.recipe.search.app-jetified-lottiedialog-1.0.0-31 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\5915539bb3ff5c5c6057871e41b9eb6d\transformed\jetified-lottiedialog-1.0.0\res
-com.recipe.search.app-jetified-lifecycle-runtime-ktx-2.6.1-32 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\5a7652613ae933831dc1bd6968f2247c\transformed\jetified-lifecycle-runtime-ktx-2.6.1\res
-com.recipe.search.app-media-1.0.0-33 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\5b778d9d46a4948f91ac221f7290d953\transformed\media-1.0.0\res
-com.recipe.search.app-jetified-fragment-ktx-1.5.5-34 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\68899795779be8a25e0bb393578345b5\transformed\jetified-fragment-ktx-1.5.5\res
-com.recipe.search.app-drawerlayout-1.1.1-35 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\7171540fa112585855744251e56d3e79\transformed\drawerlayout-1.1.1\res
-com.recipe.search.app-material-1.9.0-alpha02-36 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\7d6c9f515de8532524d7b6b785ce8197\transformed\material-1.9.0-alpha02\res
-com.recipe.search.app-jetified-profileinstaller-1.3.0-37 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\80ffc3c884b04caaec2a75c50517f0a8\transformed\jetified-profileinstaller-1.3.0\res
-com.recipe.search.app-jetified-savedstate-ktx-1.2.1-38 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\8201227a637051d48d7cacbb8a565583\transformed\jetified-savedstate-ktx-1.2.1\res
-com.recipe.search.app-jetified-lottie-6.0.0-39 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\845c5acf85a8682f2f3d986397e00283\transformed\jetified-lottie-6.0.0\res
-com.recipe.search.app-jetified-core-ktx-1.9.0-40 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\87b0d1c3164380fad8d46e9f31713656\transformed\jetified-core-ktx-1.9.0\res
-com.recipe.search.app-jetified-lifecycle-viewmodel-ktx-2.6.1-41 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\8f3ef30f23deac31a053612a897a8137\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\res
-com.recipe.search.app-jetified-glide-4.9.0-42 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\a9ef1af4166f978313a3f9009cee9db7\transformed\jetified-glide-4.9.0\res
-com.recipe.search.app-jetified-savedstate-1.2.1-43 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\ab2d21b7e061e4bdb43f8fb5e08161fd\transformed\jetified-savedstate-1.2.1\res
-com.recipe.search.app-jetified-facebook-share-5.15.3-44 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\ae163358711be86784b18107ab69a5a1\transformed\jetified-facebook-share-5.15.3\res
-com.recipe.search.app-jetified-firebase-common-20.3.2-45 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\af6c7bbde8d73c2fc8d366a3302d8a8f\transformed\jetified-firebase-common-20.3.2\res
-com.recipe.search.app-core-1.9.0-46 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\b0b62b8a36e260e48ef64eabb3e3d1ae\transformed\core-1.9.0\res
-com.recipe.search.app-coordinatorlayout-1.1.0-47 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\b519d284cebb132aa92f19aea9fe476a\transformed\coordinatorlayout-1.1.0\res
-com.recipe.search.app-jetified-firebase-messaging-23.1.1-48 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\bed15b9f9743fbbc273fd582180a8c86\transformed\jetified-firebase-messaging-23.1.1\res
-com.recipe.search.app-transition-1.2.0-49 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\c7d3fa4f98ee88afea707916d1bcf261\transformed\transition-1.2.0\res
-com.recipe.search.app-recyclerview-1.2.1-50 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\d0c1265929b144bf79f3c9c63206dbb3\transformed\recyclerview-1.2.1\res
-com.recipe.search.app-databinding-runtime-8.1.2-51 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\d418cb93e648dce00ba78fdc095bed2a\transformed\databinding-runtime-8.1.2\res
-com.recipe.search.app-lifecycle-livedata-2.6.1-52 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\d9d0e4d025fb5feb0bc3d0416274bd39\transformed\lifecycle-livedata-2.6.1\res
-com.recipe.search.app-jetified-lifecycle-service-2.6.1-53 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\db08cb0f8bcd4e69445ed4db27d71929\transformed\jetified-lifecycle-service-2.6.1\res
-com.recipe.search.app-jetified-appcompat-resources-1.7.0-alpha02-54 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\dd8d7896b418d2e2f2783dec01c1338d\transformed\jetified-appcompat-resources-1.7.0-alpha02\res
-com.recipe.search.app-jetified-androidbrowserhelper-2.4.0-55 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\e4cfb81fb2dd444ea6a33c6b44def2ce\transformed\jetified-androidbrowserhelper-2.4.0\res
-com.recipe.search.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-56 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\e77f47a39b72f6709ee45da2d066b1a7\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
-com.recipe.search.app-databinding-adapters-8.1.2-57 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\ee0a97908999760018ca3810fa040ba2\transformed\databinding-adapters-8.1.2\res
-com.recipe.search.app-jetified-lifecycle-process-2.6.1-58 D:\dm-user-android\.gradle\8.1.1\caches\transforms-3\f01138ea66d0d95e80212da5824660c9\transformed\jetified-lifecycle-process-2.6.1\res
+com.recipe.search.app-browser-1.4.0-0 C:\Users\pushp\.gradle\caches\transforms-3\05219f5611dccd58f08729a0200a5c5c\transformed\browser-1.4.0\res
+com.recipe.search.app-core-1.9.0-1 C:\Users\pushp\.gradle\caches\transforms-3\0553718436f28aef83068b5f27c12e3a\transformed\core-1.9.0\res
+com.recipe.search.app-lifecycle-runtime-2.6.1-2 C:\Users\pushp\.gradle\caches\transforms-3\0ab2647fc5230fa275136c6d29eb038d\transformed\lifecycle-runtime-2.6.1\res
+com.recipe.search.app-drawerlayout-1.1.1-3 C:\Users\pushp\.gradle\caches\transforms-3\0d326b68e9488cb26d5138f43e07d838\transformed\drawerlayout-1.1.1\res
+com.recipe.search.app-jetified-lottiedialog-1.0.0-4 C:\Users\pushp\.gradle\caches\transforms-3\0ee564f9af30db2177aed5ceceb93a3e\transformed\jetified-lottiedialog-1.0.0\res
+com.recipe.search.app-databinding-runtime-8.1.4-5 C:\Users\pushp\.gradle\caches\transforms-3\0fa25f9adfd80b0127a93067853154fa\transformed\databinding-runtime-8.1.4\res
+com.recipe.search.app-jetified-facebook-messenger-5.15.3-6 C:\Users\pushp\.gradle\caches\transforms-3\1513aaeaa0692dce7eb94d4dcbd4f67a\transformed\jetified-facebook-messenger-5.15.3\res
+com.recipe.search.app-databinding-adapters-8.1.4-7 C:\Users\pushp\.gradle\caches\transforms-3\1f41ead978ac089c8e8b2cf6c78855f5\transformed\databinding-adapters-8.1.4\res
+com.recipe.search.app-jetified-lifecycle-livedata-core-ktx-2.6.1-8 C:\Users\pushp\.gradle\caches\transforms-3\27036da26aa12681a285eccfe3e5d34d\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\res
+com.recipe.search.app-jetified-startup-runtime-1.1.1-9 C:\Users\pushp\.gradle\caches\transforms-3\2e15b6db2efe00bb370d3f37588631e3\transformed\jetified-startup-runtime-1.1.1\res
+com.recipe.search.app-jetified-facebook-common-5.15.3-10 C:\Users\pushp\.gradle\caches\transforms-3\300f3b55f617a845a48c4c345b0ef721\transformed\jetified-facebook-common-5.15.3\res
+com.recipe.search.app-jetified-play-services-base-18.1.0-11 C:\Users\pushp\.gradle\caches\transforms-3\361da160b57858802bc608f07e6e07aa\transformed\jetified-play-services-base-18.1.0\res
+com.recipe.search.app-recyclerview-1.2.1-12 C:\Users\pushp\.gradle\caches\transforms-3\3687a67b6422426c5b50a985ec7070cb\transformed\recyclerview-1.2.1\res
+com.recipe.search.app-lifecycle-viewmodel-2.6.1-13 C:\Users\pushp\.gradle\caches\transforms-3\39cdc5286ad132b1787dddc857d105ad\transformed\lifecycle-viewmodel-2.6.1\res
+com.recipe.search.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-14 C:\Users\pushp\.gradle\caches\transforms-3\3aa0654f373232a57d10eac2637ad94d\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+com.recipe.search.app-transition-1.2.0-15 C:\Users\pushp\.gradle\caches\transforms-3\3d9af1ba629cf903d1fade28e051ee65\transformed\transition-1.2.0\res
+com.recipe.search.app-jetified-activity-1.6.1-16 C:\Users\pushp\.gradle\caches\transforms-3\4060ae6253996e92b55c8bce4ec1ea50\transformed\jetified-activity-1.6.1\res
+com.recipe.search.app-jetified-savedstate-ktx-1.2.1-17 C:\Users\pushp\.gradle\caches\transforms-3\4098c243ceea84c69b509d59c1c09e25\transformed\jetified-savedstate-ktx-1.2.1\res
+com.recipe.search.app-material-1.9.0-alpha02-18 C:\Users\pushp\.gradle\caches\transforms-3\451ab951c8148451df1faf6a61eefdf3\transformed\material-1.9.0-alpha02\res
+com.recipe.search.app-cardview-1.0.0-19 C:\Users\pushp\.gradle\caches\transforms-3\505132c97c79e9b27ede5bea2b3cdb24\transformed\cardview-1.0.0\res
+com.recipe.search.app-jetified-firebase-common-20.3.2-20 C:\Users\pushp\.gradle\caches\transforms-3\52e841137ef05aab52c065e663b122fe\transformed\jetified-firebase-common-20.3.2\res
+com.recipe.search.app-jetified-lifecycle-viewmodel-ktx-2.6.1-21 C:\Users\pushp\.gradle\caches\transforms-3\601f2993234377c748cddf8cdcca4123\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\res
+com.recipe.search.app-jetified-appcompat-resources-1.7.0-alpha02-22 C:\Users\pushp\.gradle\caches\transforms-3\6172328630aaf8277a98a3ef92568330\transformed\jetified-appcompat-resources-1.7.0-alpha02\res
+com.recipe.search.app-jetified-emoji2-views-helper-1.2.0-23 C:\Users\pushp\.gradle\caches\transforms-3\631389d0f699ef8a794d0a72b6658abe\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.recipe.search.app-jetified-lifecycle-runtime-ktx-2.6.1-24 C:\Users\pushp\.gradle\caches\transforms-3\65184e83d3ceb513b1619ec464e1fe61\transformed\jetified-lifecycle-runtime-ktx-2.6.1\res
+com.recipe.search.app-jetified-activity-ktx-1.6.1-25 C:\Users\pushp\.gradle\caches\transforms-3\6ac0c05f8811a70514472f345dff56ec\transformed\jetified-activity-ktx-1.6.1\res
+com.recipe.search.app-jetified-androidbrowserhelper-2.4.0-26 C:\Users\pushp\.gradle\caches\transforms-3\738e2447037d04f34a00910123ef6c80\transformed\jetified-androidbrowserhelper-2.4.0\res
+com.recipe.search.app-coordinatorlayout-1.1.0-27 C:\Users\pushp\.gradle\caches\transforms-3\74d60e6c71fce079ed918d6404632757\transformed\coordinatorlayout-1.1.0\res
+com.recipe.search.app-jetified-facebook-share-5.15.3-28 C:\Users\pushp\.gradle\caches\transforms-3\822fb33f2cb87c94743542a12464bde6\transformed\jetified-facebook-share-5.15.3\res
+com.recipe.search.app-appcompat-1.7.0-alpha02-29 C:\Users\pushp\.gradle\caches\transforms-3\8766592893173f00fc0f0611287e3478\transformed\appcompat-1.7.0-alpha02\res
+com.recipe.search.app-jetified-glide-4.9.0-30 C:\Users\pushp\.gradle\caches\transforms-3\8b044260bd33adb9543551d08f8fd1eb\transformed\jetified-glide-4.9.0\res
+com.recipe.search.app-jetified-viewpager2-1.0.0-31 C:\Users\pushp\.gradle\caches\transforms-3\8b1ce34be25793769d0c8b3ec5a6acf4\transformed\jetified-viewpager2-1.0.0\res
+com.recipe.search.app-jetified-core-ktx-1.9.0-32 C:\Users\pushp\.gradle\caches\transforms-3\934285b104939b9e9c2f14dc07e13dd4\transformed\jetified-core-ktx-1.9.0\res
+com.recipe.search.app-core-runtime-2.2.0-33 C:\Users\pushp\.gradle\caches\transforms-3\97c60bb82333598500f9582de60cd14a\transformed\core-runtime-2.2.0\res
+com.recipe.search.app-lifecycle-livedata-2.6.1-34 C:\Users\pushp\.gradle\caches\transforms-3\9b3f4d64872cff1749acf2438b6292b2\transformed\lifecycle-livedata-2.6.1\res
+com.recipe.search.app-jetified-savedstate-1.2.1-35 C:\Users\pushp\.gradle\caches\transforms-3\9cc8280ac6afd1682372d03ba7588544\transformed\jetified-savedstate-1.2.1\res
+com.recipe.search.app-jetified-lifecycle-process-2.6.1-36 C:\Users\pushp\.gradle\caches\transforms-3\a41da1f38fcdbde3fd73406767d87380\transformed\jetified-lifecycle-process-2.6.1\res
+com.recipe.search.app-jetified-emoji2-1.2.0-37 C:\Users\pushp\.gradle\caches\transforms-3\afaa627d541efb22d065ff570ea4ab9a\transformed\jetified-emoji2-1.2.0\res
+com.recipe.search.app-jetified-lottie-6.0.0-38 C:\Users\pushp\.gradle\caches\transforms-3\b821eedf3e66eb9019c9b301cf93c15a\transformed\jetified-lottie-6.0.0\res
+com.recipe.search.app-fragment-1.5.5-39 C:\Users\pushp\.gradle\caches\transforms-3\c1ba0b2cb06600ce5b57eaaf9aa7cfb7\transformed\fragment-1.5.5\res
+com.recipe.search.app-jetified-android-gif-drawable-1.2.22-40 C:\Users\pushp\.gradle\caches\transforms-3\c38079c1aedd35f41750d6d7482ea8c8\transformed\jetified-android-gif-drawable-1.2.22\res
+com.recipe.search.app-media-1.0.0-41 C:\Users\pushp\.gradle\caches\transforms-3\c9e0a4c263c1c0b92ff303cc1891a292\transformed\media-1.0.0\res
+com.recipe.search.app-jetified-circleimageview-2.2.0-42 C:\Users\pushp\.gradle\caches\transforms-3\cf5c1913de6e0d1c0fc7bbc143432ac4\transformed\jetified-circleimageview-2.2.0\res
+com.recipe.search.app-jetified-firebase-messaging-23.1.1-43 C:\Users\pushp\.gradle\caches\transforms-3\d02ef554d79be58bee863fceb4468c7e\transformed\jetified-firebase-messaging-23.1.1\res
+com.recipe.search.app-jetified-fragment-ktx-1.5.5-44 C:\Users\pushp\.gradle\caches\transforms-3\de880a8bdc9764600a95272285da27db\transformed\jetified-fragment-ktx-1.5.5\res
+com.recipe.search.app-jetified-facebook-login-5.15.3-45 C:\Users\pushp\.gradle\caches\transforms-3\deda636bf94a8f12b2fbb9854b8fce6f\transformed\jetified-facebook-login-5.15.3\res
+com.recipe.search.app-jetified-play-services-basement-18.1.0-46 C:\Users\pushp\.gradle\caches\transforms-3\dfc0c0e79e1c3812f443194cf2996a94\transformed\jetified-play-services-basement-18.1.0\res
+com.recipe.search.app-jetified-lifecycle-service-2.6.1-47 C:\Users\pushp\.gradle\caches\transforms-3\ef804e72da4583df4212aec873cf2d66\transformed\jetified-lifecycle-service-2.6.1\res
+com.recipe.search.app-jetified-annotation-experimental-1.3.0-48 C:\Users\pushp\.gradle\caches\transforms-3\f07cfaa1788c82b0603d924cf3061e2c\transformed\jetified-annotation-experimental-1.3.0\res
+com.recipe.search.app-constraintlayout-2.1.4-49 C:\Users\pushp\.gradle\caches\transforms-3\f242d3f6431ed5618a94b02136d50f5d\transformed\constraintlayout-2.1.4\res
+com.recipe.search.app-jetified-profileinstaller-1.3.0-50 C:\Users\pushp\.gradle\caches\transforms-3\f488146d1ed2a02d08dde563c5cbe892\transformed\jetified-profileinstaller-1.3.0\res
+com.recipe.search.app-lifecycle-livedata-core-2.6.1-51 C:\Users\pushp\.gradle\caches\transforms-3\fa9dd05dd70f8910bf66d3b6b2fa2b1d\transformed\lifecycle-livedata-core-2.6.1\res
+com.recipe.search.app-pngs-52 D:\Recipe Search App\app\build\generated\res\pngs\debug
+com.recipe.search.app-resValues-53 D:\Recipe Search App\app\build\generated\res\resValues\debug
+com.recipe.search.app-mergeDebugResources-54 D:\Recipe Search App\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.recipe.search.app-mergeDebugResources-55 D:\Recipe Search App\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.recipe.search.app-merged_res-56 D:\Recipe Search App\app\build\intermediates\merged_res\debug
+com.recipe.search.app-debug-57 D:\Recipe Search App\app\src\debug\res
+com.recipe.search.app-main-58 D:\Recipe Search App\app\src\main\res

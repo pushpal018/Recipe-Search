@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.ImageView
 import com.recipe.search.base.MvpBaseActivity
 import com.recipe.search.databinding.ActivityLoginBinding
+import com.recipe.search.ui.view.auth.appwrite_auth.AppwriteRegistrationActivity
 import com.recipe.search.ui.view.auth.signUp.SignUpActivity
 import com.recipe.search.ui.view.dashboard.DashBoardActivity
 import com.recipe.search.utils.AppwriteInit
@@ -77,7 +78,7 @@ class LoginActivity :  MvpBaseActivity<LoginPresenter>(), LoginContract.View {
         }
 
         binding.llSignupBtn.setOnClickListener {
-            Navigator.sharedInstance.navigate(this, SignUpActivity::class.java)
+            Navigator.sharedInstance.navigate(this, AppwriteRegistrationActivity::class.java)
         }
 
 

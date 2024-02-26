@@ -26,6 +26,9 @@
         tools:ignore="UnusedAttribute"
         tools:replace="android:label">
         <activity
+            android:name=".ui.view.auth.appwrite_auth.AppwriteRegistrationActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.view.recipe_details.RecipeDetailsActivity"
             android:exported="false" />
         <activity

@@ -55,6 +55,9 @@
         android:theme="@style/NoActionBar"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.recipe.search.ui.view.auth.appwrite_auth.AppwriteRegistrationActivity"
+            android:exported="false" />
+        <activity
             android:name="com.recipe.search.ui.view.recipe_details.RecipeDetailsActivity"
             android:exported="false" />
         <activity

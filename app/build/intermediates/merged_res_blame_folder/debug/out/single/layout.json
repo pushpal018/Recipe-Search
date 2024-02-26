@@ -1,70 +1,70 @@
 [
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\dialog_error.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\dialog_error.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/activity_sign_up.xml",
+        "source": "com.recipe.search.app-main-58:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\recipe__item_layout.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\recipe__item_layout.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/dialog_error.xml",
+        "source": "com.recipe.search.app-main-58:/layout/dialog_error.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\dialog_update_profile.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\dialog_update_profile.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/activity_splash_screen.xml",
+        "source": "com.recipe.search.app-main-58:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\activity_login.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\activity_login.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/dialog_update_profile.xml",
+        "source": "com.recipe.search.app-main-58:/layout/dialog_update_profile.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\activity_splash_screen.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\activity_splash_screen.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/recipe_details_item_layout.xml",
+        "source": "com.recipe.search.app-main-58:/layout/recipe_details_item_layout.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\activity_sign_up.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\activity_sign_up.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/activity_dash_board.xml",
+        "source": "com.recipe.search.app-main-58:/layout/activity_dash_board.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\app_loading_view.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\app_loading_view.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/loading_view.xml",
+        "source": "com.recipe.search.app-main-58:/layout/loading_view.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\popup_dialog.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\popup_dialog.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/dialog_layout.xml",
+        "source": "com.recipe.search.app-main-58:/layout/dialog_layout.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\dialog_layout.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\dialog_layout.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/nav_header_home.xml",
+        "source": "com.recipe.search.app-main-58:/layout/nav_header_home.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\app_bar_layout.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\app_bar_layout.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/app_loading_view.xml",
+        "source": "com.recipe.search.app-main-58:/layout/app_loading_view.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\loading_view.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\loading_view.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/dialog_success.xml",
+        "source": "com.recipe.search.app-main-58:/layout/dialog_success.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\activity_recipe_details.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\activity_recipe_details.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/popup_dialog.xml",
+        "source": "com.recipe.search.app-main-58:/layout/popup_dialog.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\nav_header_home.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\nav_header_home.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/activity_appwrite_registration.xml",
+        "source": "com.recipe.search.app-main-58:/layout/activity_appwrite_registration.xml"
     },
     {
-        "merged": "com.recipe.search.app-mergeDebugResources-3:/layout/activity_recipe_details.xml",
-        "source": "com.recipe.search.app-main-6:/layout/activity_recipe_details.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/activity_recipe_details.xml",
+        "source": "com.recipe.search.app-main-58:/layout/activity_recipe_details.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\recipe_details_item_layout.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\recipe_details_item_layout.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/recipe__item_layout.xml",
+        "source": "com.recipe.search.app-main-58:/layout/recipe__item_layout.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\activity_dash_board.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\activity_dash_board.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/activity_login.xml",
+        "source": "com.recipe.search.app-main-58:/layout/activity_login.xml"
     },
     {
-        "merged": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-mergeDebugResources-3:\\layout\\dialog_success.xml",
-        "source": "D:\\dm-user-android\\.gradle\\8.1.1\\daemon\\8.0\\com.recipe.search.app-main-6:\\layout\\dialog_success.xml"
+        "merged": "com.recipe.search.app-mergeDebugResources-55:/layout/app_bar_layout.xml",
+        "source": "com.recipe.search.app-main-58:/layout/app_bar_layout.xml"
     }
 ]

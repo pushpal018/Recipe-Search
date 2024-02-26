@@ -4,6 +4,7 @@ object APIs {
 
     //BASR URL
     const val BASE_URL = "https://forkify-api.herokuapp.com/api/"
+    const val BASE_URL_Appwrite = "https://cloud.appwrite.io/v1/"
 
 
 
@@ -15,6 +16,10 @@ object APIs {
     const val DETAILS = "${BASE_URL}get"
 
     const val LOGIN = "${BASE_URL}login"
+
+
+    //Appwrite Signup
+    const val SIGNUP = "${BASE_URL}account"
 
 
 
